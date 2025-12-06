@@ -316,7 +316,7 @@ def run_dssd():
 
             new_batch = draft_tokens + [final_token]
             generated.extend(new_batch)
-            print(new_batch, end=" ", flush=True)
+            print("x", end=" ", flush=True)
 
         else:
             # Rejection occurred at index `i`
